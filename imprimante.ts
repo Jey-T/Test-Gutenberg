@@ -2,6 +2,7 @@
 //En espace O(1)
 function checkIfprintable(availableLetters: string, input: string) {
 
+    //On traite le cas ou on est certains que input ne sera pas imprimable, lorsqu'on a plus de lettres a imprimer que de lettres imprimables.
     if (availableLetters.length < input.length) {
         return false
     }
