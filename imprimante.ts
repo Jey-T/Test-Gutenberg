@@ -27,9 +27,13 @@ function checkIfprintable(availableLetters: string, input: string) {
     return true
 }
 
-
+console.log("aabbcc", "abc")
 console.log(checkIfprintable("aabbcc", "abc")); // true
+console.log("aabbcc", "aabbccc")
 console.log(checkIfprintable("aabbcc", "aabbccc")); // false
+console.log("xyz", "zxy")
 console.log(checkIfprintable("xyz", "zxy")); // true
+console.log("", "a")
 console.log(checkIfprintable("", "a")); // false
+console.log("aaa", "")
 console.log(checkIfprintable("aaa", "")); // true
